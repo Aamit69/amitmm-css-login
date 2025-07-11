@@ -1,1 +1,94 @@
 
+            .hero-section {
+                text-align: center;
+                padding: 13px 20px;
+
+                margin-bottom: 30px;
+            }
+
+            .top-badge {
+                display: inline-block;
+                padding: 8px 20px;
+                background-color: #4eafe6;
+                color: #fff;
+                border-radius: 10px;
+                font-weight: 600;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-bottom: 15px;
+                font-size: 14px;
+            }
+
+            .hero-title {
+                font-size: 26px;
+                color: #111;
+                margin-top: 20px;
+            }
+
+            .hero-text {
+                color: #333;
+                font-size: 15px;
+                margin-top: 10px;
+            }
+
+            .hero-buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                margin-top: 30px;
+                flex-wrap: nowrap;
+            }
+
+            .hero-buttons a {
+                flex: 1;
+                min-width: 0;
+            }
+
+            .hero-buttons a button {
+                width: 100%;
+                padding: 10px 14px;
+                background-color: #4eafe6;
+                color: white;
+                border: 2px solid #3a9bd6;
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 15px;
+                white-space: nowrap;
+                cursor: pointer;
+                box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+                transition: all 0.3s ease;
+            }
+
+            .hero-buttons a button:hover {
+                background-color: #3d99c8;
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+                transform: translateY(-2px);
+            }
+
+            .Well {
+                padding: 20px;
+                background: #ffffff;
+                border-radius: 12px;
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+                border: 1px solid #f0f0f0;
+                margin-bottom: 25px;
+            }
+
+            .click {
+                width: 100%;
+                height: 50px;
+                border-radius: 8px;
+                box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5), -1px -1px 5px rgba(0, 0, 0, .1);
+            }
+
+            @media (max-width: 420px) {
+                .hero-buttons {
+                    flex-direction: row;
+                }
+
+                .hero-buttons a button {
+                    font-size: 13px;
+                    padding: 10px;
+                }
+            }
+        
